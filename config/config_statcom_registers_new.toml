@@ -1,0 +1,546 @@
+[[basic_read_registers]]
+reg_name = "Set_Power"
+scalar = 1.0
+dtype = "h"
+location = 1001
+
+[[basic_read_registers]]
+reg_name = "AS4777_DRM_Enable"
+scalar = 1.0
+dtype = "H"
+location = 1049
+
+[[basic_read_registers]]
+reg_name = "AS4777_Compliance_Test"
+scalar = 1.0
+dtype = "H"
+location = 1050
+
+[[basic_read_registers]]
+reg_name = "Statcom_Run_Standby"
+scalar = 1.0
+dtype = "H"
+location = 1051
+
+[[basic_read_registers]]
+reg_name = "AC_Power_Mode"
+scalar = 1.0
+dtype = "H"
+location = 1054
+
+[[basic_read_registers]]
+reg_name = "AC_Reactive_Power_Mode"
+scalar = 1.0
+dtype = "H"
+location = 1055
+
+[[basic_read_registers]]
+reg_name = "Statcom_Operation_Mode"
+scalar = 1.0
+dtype = "H"
+location = 1056
+
+[[basic_read_registers]]
+reg_name = "RPI_Temperature_1"
+scalar = 0.1
+dtype = "H"
+location = 1086
+
+[[basic_read_registers]]
+reg_name = "RPI_Temperature_2"
+scalar = 0.1
+dtype = "H"
+location = 1087
+
+[[basic_read_registers]]
+reg_name = "RPI_Temperature_3"
+scalar = 0.1
+dtype = "H"
+location = 1088
+
+[[basic_read_registers]]
+reg_name = "RPI_Temperature_4"
+scalar = 0.1
+dtype = "H"
+location = 1089
+
+[[basic_read_registers]]
+reg_name = "RPI_External_Battery_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 1090
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Apparent_Power_A"
+scalar = 1.0
+dtype = "H"
+location = 1110
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Apparent_Power_B"
+scalar = 1.0
+dtype = "H"
+location = 1111
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Apparent_Power_C"
+scalar = 1.0
+dtype = "H"
+location = 1112
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Active_Power_A"
+scalar = 1.0
+dtype = "H"
+location = 1113
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Active_Power_B"
+scalar = 1.0
+dtype = "H"
+location = 1114
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Active_Power_C"
+scalar = 1.0
+dtype = "H"
+location = 1115
+
+[[basic_read_registers]]
+reg_name = "Export_Meter_Lifesign"
+scalar = 1.0
+dtype = "H"
+location = 1116
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Apparent_Power_A"
+scalar = 1.0
+dtype = "H"
+location = 1117
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Apparent_Power_B"
+scalar = 1.0
+dtype = "H"
+location = 1118
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Apparent_Power_C"
+scalar = 1.0
+dtype = "H"
+location = 1119
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Active_Power_A"
+scalar = 1.0
+dtype = "H"
+location = 1120
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Active_Power_B"
+scalar = 1.0
+dtype = "H"
+location = 1121
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Active_Power_C"
+scalar = 1.0
+dtype = "H"
+location = 1122
+
+[[basic_read_registers]]
+reg_name = "Generation_Meter_Lifesign"
+scalar = 1.0
+dtype = "H"
+location = 1123
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Voltage"
+scalar = 0.1
+dtype = "h"
+location = 2001
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Current"
+scalar = 0.1
+dtype = "h"
+location = 2002
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Voltage_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2003
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Current_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2004
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Voltage"
+scalar = 0.1
+dtype = "h"
+location = 2005
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Current"
+scalar = 0.1
+dtype = "h"
+location = 2006
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Voltage_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2007
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Current_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2008
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Voltage"
+scalar = 0.1
+dtype = "h"
+location = 2009
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Current"
+scalar = 0.1
+dtype = "h"
+location = 2010
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Voltage_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2011
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Current_Angle"
+scalar = 0.1
+dtype = "h"
+location = 2012
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Import_Export"
+scalar = 1.0
+dtype = "H"
+location = 2013
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Reactive_Power"
+scalar = 1.0
+dtype = "h"
+location = 2014
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Active_Power"
+scalar = 1.0
+dtype = "h"
+location = 2015
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Import_Export"
+scalar = 1.0
+dtype = "H"
+location = 2016
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Reactive_Power"
+scalar = 1.0
+dtype = "h"
+location = 2017
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Active_Power"
+scalar = 1.0
+dtype = "h"
+location = 2018
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Import_Export"
+scalar = 1.0
+dtype = "H"
+location = 2019
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Reactive_Power"
+scalar = 1.0
+dtype = "h"
+location = 2020
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Active_Power"
+scalar = 1.0
+dtype = "h"
+location = 2021
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Apparent_Power"
+scalar = 1.0
+dtype = "H"
+location = 2022
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Apparent_Angle"
+scalar = 1.0
+dtype = "H"
+location = 2023
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Apparent_Power"
+scalar = 1.0
+dtype = "H"
+location = 2024
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Apparent_Angle"
+scalar = 1.0
+dtype = "H"
+location = 2025
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Apparent_Power"
+scalar = 1.0
+dtype = "H"
+location = 2026
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Apparent_Angle"
+scalar = 1.0
+dtype = "H"
+location = 2027
+
+[[basic_read_registers]]
+reg_name = "DC_Bus_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2028
+
+[[basic_read_registers]]
+reg_name = "DC_Bus_Current"
+scalar = 0.1
+dtype = "h"
+location = 2029
+
+[[basic_read_registers]]
+reg_name = "DC_Bus_Maximum_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2030
+
+[[basic_read_registers]]
+reg_name = "DC_Bus_Minimum_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2031
+
+[[basic_read_registers]]
+reg_name = "Max_Charge_Rate"
+scalar = 0.01
+dtype = "H"
+location = 2032
+
+[[basic_read_registers]]
+reg_name = "Max_Discharge_Rate"
+scalar = 0.01
+dtype = "H"
+location = 2033
+
+[[basic_read_registers]]
+reg_name = "Cooling_Fan_Speed"
+scalar = 0.1
+dtype = "H"
+location = 2034
+
+[[basic_read_registers]]
+reg_name = "H_Bridge_Enable"
+scalar = 1.0
+dtype = "H"
+location = 2035
+
+[[basic_read_registers]]
+reg_name = "DC_Precharge_Relay_State"
+scalar = 1.0
+dtype = "H"
+location = 2036
+
+[[basic_read_registers]]
+reg_name = "AC_Precharge_Relay_State"
+scalar = 1.0
+dtype = "H"
+location = 2037
+
+[[basic_read_registers]]
+reg_name = "DC_Contactor_State"
+scalar = 1.0
+dtype = "H"
+location = 2038
+
+[[basic_read_registers]]
+reg_name = "AC_Contactor_State"
+scalar = 1.0
+dtype = "H"
+location = 2039
+
+[[basic_read_registers]]
+reg_name = "DC_Bus_Alarms"
+scalar = 1.0
+dtype = "H"
+location = 2040
+
+[[basic_read_registers]]
+reg_name = "AC_Bus_Alarms_Voltage"
+scalar = 1.0
+dtype = "H"
+location = 2041
+
+[[basic_read_registers]]
+reg_name = "AC_Bus_Alarms_Current"
+scalar = 1.0
+dtype = "H"
+location = 2042
+
+[[basic_read_registers]]
+reg_name = "Statcom_Alarms"
+scalar = 1.0
+dtype = "H"
+location = 2043
+
+[[basic_read_registers]]
+reg_name = "Battery_Charge_Discharge_State"
+scalar = 1.0
+dtype = "H"
+location = 2044
+
+[[basic_read_registers]]
+reg_name = "Battery_Charge_Discharge_Complete_Alarm"
+scalar = 1.0
+dtype = "H"
+location = 2045
+
+[[basic_read_registers]]
+reg_name = "Precharge_Method_Mode"
+scalar = 1.0
+dtype = "H"
+location = 2046
+
+[[basic_read_registers]]
+reg_name = "Statcom_State"
+scalar = 1.0
+dtype = "H"
+location = 2047
+
+[[basic_read_registers]]
+reg_name = "DRM0_State"
+scalar = 1.0
+dtype = "H"
+location = 2059
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Power_Export_limit"
+scalar = 1.0
+dtype = "H"
+location = 2068
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Power_Export_limit"
+scalar = 1.0
+dtype = "H"
+location = 2069
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Power_Export_limit"
+scalar = 1.0
+dtype = "H"
+location = 2070
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Capacitor_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2071
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Capacitor_Voltage_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2072
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Inductor_Current"
+scalar = 0.1
+dtype = "H"
+location = 2073
+
+[[basic_read_registers]]
+reg_name = "Phase_A_Inductor_Current_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2074
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Capacitor_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2075
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Capacitor_Voltage_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2076
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Inductor_Current"
+scalar = 0.1
+dtype = "H"
+location = 2077
+
+[[basic_read_registers]]
+reg_name = "Phase_B_Inductor_Current_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2078
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Capacitor_Voltage"
+scalar = 0.1
+dtype = "H"
+location = 2079
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Capacitor_Voltage_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2080
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Inductor_Current"
+scalar = 0.1
+dtype = "H"
+location = 2081
+
+[[basic_read_registers]]
+reg_name = "Phase_C_Inductor_Current_Angle"
+scalar = 0.1
+dtype = "H"
+location = 2082
+
+[[basic_read_block]]
+start = 1000
+size = 92
+
+[[basic_read_block]]
+start = 1109
+size = 16
+
+[[basic_read_block]]
+start = 2000
+size = 99
+

@@ -1,0 +1,97 @@
+[python_administrator_modules]
+modules = [ "redis_subscriber_db", "postgres.postgres_reporter", "hardware_interface.group_controller", "hardware_interface.site_state_aggregator_NEW", "marketnet.marketnet_scraper",]
+
+[global]
+site_id = "eves"
+site_type = "eves"
+timezone = "Australia/Brisbane"
+heartbeat_frequency = 1
+
+[ipc-parameters]
+reporting_frequency = 15
+raspi_state_reporting_period = 60
+slow_reporting_frequency = 0.03333
+
+[devices]
+[[devices.battery]]
+type = "battery_catl_child"
+
+[devices.battery.config]
+host = "192.168.0.101"
+port = 502
+unit = 1
+mode = "read/write"
+[[devices.statcom]]
+type = "statcom_child"
+
+[devices.statcom.config]
+host = "192.168.1.40"
+port = 502
+unit = 12
+mode = "read/write"
+version = "new"
+[[devices.statcom]]
+type = "statcom_child"
+
+[devices.statcom.config]
+host = "192.168.1.38"
+port = 502
+unit = 12
+mode = "read/write"
+version = "new"
+[[devices.meter_grid]]
+type = "meter_satec_child"
+
+[devices.meter_grid.config]
+host = "192.168.0.50"
+port = 502
+unit = 1
+
+[config_files]
+config_controller = "/config/config_controller.toml"
+config_metadata = "/config/config_metadata.toml"
+config_mqtt = "/config/config_mqtt.toml"
+config_python_modules = "/config/config_python_modules.toml"
+
+[redis]
+db = 1
+host = "localhost"
+port = 6379
+
+[python_config]
+version = "python3"
+
+[site_state_comms]
+modules = [ "",]
+
+[db_config]
+db_name = "elexsys"
+host = "127.0.0.1"
+password = "offgrid_user_password"
+port = 5432
+user = "offgrid_user"
+
+[timeseries_tables]
+tables = [ "battery_cell_voltage_readings", "battery_cell_temperature_readings", "battery_readings", "meter_readings", "plc_readings", "raspi_state", "solar_readings", "statcom_readings",]
+
+[command-frequency]
+solar = 0.5
+battery = 1
+
+[min-reporting-periods]
+battery = 0.01
+meter_grid = 0.01
+meter_solar = 0.01
+meter_statcom = 0.01
+plc = 0.01
+solar = 0.01
+statcom = 0.01
+
+[raspi-state-monitor]
+cpu_percent = 90
+max_slack_alert_frequency = 300
+used_ram_perc = 90
+
+[postgres_reporter]
+reporting_interval = 30
+snapshot_interval = 10

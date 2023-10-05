@@ -1,0 +1,197 @@
+register_offset = 0
+[[basic_read_registers]]
+reg_name = "Voltage_1"
+scalar = 0.1
+dtype = "I"
+location = 13953
+
+[[basic_read_registers]]
+reg_name = "Voltage_2"
+scalar = 0.1
+dtype = "I"
+location = 13955
+
+[[basic_read_registers]]
+reg_name = "Voltage_3"
+scalar = 0.1
+dtype = "I"
+location = 13957
+
+[[basic_read_registers]]
+reg_name = "Current_1"
+scalar = 0.01
+dtype = "I"
+location = 13959
+
+[[basic_read_registers]]
+reg_name = "Current_2"
+scalar = 0.01
+dtype = "I"
+location = 13961
+
+[[basic_read_registers]]
+reg_name = "Current_3"
+scalar = 0.01
+dtype = "I"
+location = 13963
+
+[[basic_read_registers]]
+reg_name = "kW_1"
+scalar = 1.0
+dtype = "i"
+location = 13965
+
+[[basic_read_registers]]
+reg_name = "kW_2"
+scalar = 1.0
+dtype = "i"
+location = 13967
+
+[[basic_read_registers]]
+reg_name = "kW_3"
+scalar = 1.0
+dtype = "i"
+location = 13969
+
+[[basic_read_registers]]
+reg_name = "kvar_1"
+scalar = 1.0
+dtype = "i"
+location = 13971
+
+[[basic_read_registers]]
+reg_name = "kvar_2"
+scalar = 1.0
+dtype = "i"
+location = 13973
+
+[[basic_read_registers]]
+reg_name = "kvar_3"
+scalar = 1.0
+dtype = "i"
+location = 13975
+
+[[basic_read_registers]]
+reg_name = "kVA_1"
+scalar = 1.0
+dtype = "I"
+location = 13977
+
+[[basic_read_registers]]
+reg_name = "kVA_2"
+scalar = 1.0
+dtype = "I"
+location = 13979
+
+[[basic_read_registers]]
+reg_name = "kVA_3"
+scalar = 1.0
+dtype = "I"
+location = 13981
+
+[[basic_read_registers]]
+reg_name = "Power_factor_1"
+scalar = 0.001
+dtype = "i"
+location = 13983
+
+[[basic_read_registers]]
+reg_name = "Power_factor_2"
+scalar = 0.001
+dtype = "i"
+location = 13985
+
+[[basic_read_registers]]
+reg_name = "Power_factor_3"
+scalar = 0.001
+dtype = "i"
+location = 13987
+
+[[basic_read_registers]]
+reg_name = "Voltage_THD_1"
+scalar = 0.1
+dtype = "i"
+location = 13989
+
+[[basic_read_registers]]
+reg_name = "Voltage_THD_2"
+scalar = 0.1
+dtype = "i"
+location = 13991
+
+[[basic_read_registers]]
+reg_name = "Voltage_THD_3"
+scalar = 0.1
+dtype = "i"
+location = 13993
+
+[[basic_read_registers]]
+reg_name = "Current_THD_1"
+scalar = 0.1
+dtype = "i"
+location = 13995
+
+[[basic_read_registers]]
+reg_name = "Current_THD_2"
+scalar = 0.1
+dtype = "i"
+location = 13997
+
+[[basic_read_registers]]
+reg_name = "Current_THD_3"
+scalar = 0.1
+dtype = "i"
+location = 13999
+
+[[basic_read_registers]]
+reg_name = "Current_N"
+scalar = 0.01
+dtype = "i"
+location = 14467
+
+[[basic_read_registers]]
+reg_name = "Frequency"
+scalar = 0.01
+dtype = "i"
+location = 14469
+
+[[basic_read_registers]]
+reg_name = "kWh_import"
+scalar = 1.0
+dtype = "i"
+location = 14721
+
+[[basic_read_registers]]
+reg_name = "kWh_export"
+scalar = 1.0
+dtype = "i"
+location = 14723
+
+[[basic_read_registers]]
+reg_name = "kvarh_import"
+scalar = 1.0
+dtype = "i"
+location = 14729
+
+[[basic_read_registers]]
+reg_name = "kvarh_export"
+scalar = 1.0
+dtype = "i"
+location = 14731
+
+[[basic_read_block]]
+start = 13952
+size = 50
+
+[[basic_read_block]]
+start = 14466
+size = 5
+
+[[basic_read_block]]
+start = 14720
+size = 15
+
+[pretested_meter_polarities]
+meter_grid = 1
+meter_solar = -1
+meter_statcom = -1

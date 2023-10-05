@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+*.vscode
+logs/*.txt
+*tmp.py
