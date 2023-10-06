@@ -12,7 +12,7 @@ import ipaddress
 
 from utils_custom import Utils
 import db_logger
-from pymodbus.client import ModbusTcpClient
+from pymodbus.client.sync import ModbusTcpClient
 from redis_edge_device_ipc import Redis_edge_device_ipc
 from pubsub_topic_encoder_decoder import PubSubTopicEncoderDecoder as psted
 

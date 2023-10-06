@@ -316,7 +316,7 @@ if __name__ == "__main__":
         "--statcom-addr",
         required=False,
         type=str,
-        default="192.168.1.201",
+        default="192.168.1.222",
         help="Address of the Statcom.",
     )
     parser.add_argument(
