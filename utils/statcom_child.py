@@ -22,7 +22,7 @@ class Statcom(Edge_device):
         
         self.new_version = True if version == "new" else False
         
-        CONFIG_FILE = f'{os.path.dirname(__file__)}/config/config_statcom_registers_new.toml' if self.new_version else f'{os.path.dirname(__file__)}config/config_statcom_registers.toml'
+        CONFIG_FILE = f'{os.path.dirname(__file__)}/../config/config_statcom_registers_new.toml' if self.new_version else f'{os.path.dirname(__file__)}/../config/config_statcom_registers.toml'
         
         self.config = toml.load(CONFIG_FILE)
         super().__init__(module_name, host, port, unit_id, True)
