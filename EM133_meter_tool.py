@@ -9,6 +9,7 @@ from utils.meter_satec_child import Meter
 
 import argparse
 import curses
+import numpy as np
 import time
 
 
@@ -189,10 +190,11 @@ class Monitor:
                         f"{direction} {p_type[0]} {ph}:",
                         curses.color_pair(1),
                     )
+                    # Convert using numpy because the STATCOM stores the values as uint16 but the values are realistically an int16.
                     self.screen.addstr(
                         row,
                         self._statcom_value_col,
-                        f"{int(self.reg_statcom.get(f'{direction}_Meter_{p_type[0]}_Power_{ph}')):d}",
+                        f"{np.array((self.reg_statcom.get(f'{direction}_Meter_{p_type[0]}_Power_{ph}'))).astype(np.int16)}",
                         curses.color_pair(3),
                     )
                     self.screen.addstr(
